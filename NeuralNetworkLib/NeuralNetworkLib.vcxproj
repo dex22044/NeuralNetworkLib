@@ -158,10 +158,12 @@
     <ClInclude Include="NeuralNetwork.h" />
     <ClInclude Include="NNLayer.h" />
     <ClInclude Include="NNTools.h" />
+    <ClInclude Include="Saver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NeuralNetwork.cpp" />
     <ClCompile Include="NNLayer.cpp" />
+    <ClCompile Include="Saver.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
